@@ -1,0 +1,78 @@
+.why-dtma-container1 {
+  /* text-align: left; */
+  padding: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.why-dtma-header1 h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: normal;
+  text-align: right;
+}
+
+.why-dtma-header1 p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.why-dtma-content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.why-dtma-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.why-dtma-image1 {
+  width: 60%;  /* Reduced from 60% */
+  height: auto;
+  border-radius: 5px;
+  margin-left: -250px;
+}
+
+.why-dtma-text1 {
+  width: 40%;  /* Adjusted to balance with smaller image */
+  padding-left: 20px;
+  /* text-align: center; */
+}
+
+
+.why-dtma-text1 h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: normal;
+}
+
+.why-dtma-text1 p {
+  font-size: 15px;
+  color: #555;
+  margin: 0;
+}
+
+.cta-button1 {
+  background-color: #FB5535; /* Teal background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cta-button1:hover {
+  background-color: #D0452B; /* Darker teal on hover */
+  margin-top: 20px;
+}

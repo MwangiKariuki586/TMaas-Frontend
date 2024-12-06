@@ -1,0 +1,134 @@
+.footer {
+    /* background-color: #f8f8f8; */
+    background: var(--background-linear, linear-gradient(219deg, #EAE8FF 9.8%, #FFE7E8 102.68%));
+    /* background: #d1e4e480; */
+    padding-top: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .newsletter-section {
+    flex: 1;
+    margin-right: 100px;
+  }
+  
+  .footer-logo {
+    width: 150px; /* Adjust based on the logo size */
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-section p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .newsletter-input input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-button {
+    background-color: #FB5535;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #D0452B;
+  }
+  
+  .links-section {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+  }
+  
+  .links-section div {
+    margin-right: 50px;
+  }
+  
+  .links-section h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .links-section ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .links-section ul li a:hover {
+    color: #000;
+  }
+  
+  .new-badge {
+    background-color: #FB5535;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-top: 1px solid #ccc;
+    margin-top: 35px;
+    background-color: #000;  /* Set background color to black only for the bottom section */
+    color: white;
+    
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    /* background-image: url('/images/social-icons.png'); Path to your combined sprite image */
+    background-size: 100px 24px; /* Adjust based on your sprite image size */
+  }
+  
+  /* Background position for the LinkedIn icon */
+  .social-link.linkedin {
+    background-position: 0 0; /* Position for LinkedIn icon in the sprite */
+  }
+  

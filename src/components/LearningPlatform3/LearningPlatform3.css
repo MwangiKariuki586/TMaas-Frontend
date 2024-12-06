@@ -1,0 +1,69 @@
+.why-dtma-container {
+    text-align: center;
+    padding: 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .why-dtma-header h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: normal;
+  }
+  
+  .why-dtma-header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .why-dtma-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .why-dtma-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .why-dtma-image {
+    width: 60%;  /* Reduced from 60% */
+    height: auto;
+    border-radius: 5px;
+    margin-left: -250px;
+  }
+  
+  .why-dtma-text {
+    width: 40%;  /* Adjusted to balance with smaller image */
+    padding-left: 20px;
+    text-align: center;
+  }
+  
+  .why-dtma-icon2 {
+    width: 40px; 
+    height: 40px;  
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-dtma-text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: normal;
+  }
+  
+  .why-dtma-text p {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+  }
+  

@@ -1,0 +1,102 @@
+
+.hero-container {
+    /* position: relative; */
+    text-align: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.1); Adjust opacity as needed */
+    z-index: 0;
+  }
+
+  .hero-top {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: white;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+
+  .hero-top-item {
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: border-bottom 0.3s ease;
+  }
+   
+  .hero-top-item:hover, .hero-top-item.selected:hover {
+    border-bottom: 2px solid #FB5535;
+
+  }
+  
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: "Public Sans";
+  }
+  
+  .hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Public Sans";
+    font-weight: 300;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-get-started{
+    padding: 10px 45px !important;
+  }
+
+  .btn-signin, .btn-get-started {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500; /* Semi-bold for buttons */
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .btn-signin:hover, .btn-get-started:hover {
+    background-color: #FB5535;
+    color: black;
+  }

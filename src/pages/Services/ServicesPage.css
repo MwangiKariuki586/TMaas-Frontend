@@ -1,0 +1,9 @@
+.service_container {
+  width: 90%;
+  margin-left: 22%;
+}
+.service_components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

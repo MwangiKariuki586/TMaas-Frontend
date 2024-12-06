@@ -1,0 +1,10 @@
+.service_wrapper {
+  text-align: center;
+  margin: 63px 0;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}

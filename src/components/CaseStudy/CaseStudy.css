@@ -1,0 +1,120 @@
+.course-section {
+    padding: 20px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .course-container {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+    cursor: grab; /*Change cursor tco indicate drag*/
+  }
+  
+  .course-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .course-item {
+    flex: 0 0 auto;
+    width: calc(100% / 3.2 - 20px); /* Three items per row minus the gap */
+    scroll-snap-align: start;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-item:hover {
+    transform: scale(1.2); /* Enlarge the item on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-image {
+    position: relative;
+    filter: brightness(50%);
+  }
+  
+  .course-image img {
+    width: 100%;
+    height: 200%;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .course-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    
+  }
+  
+  .course-info {
+    padding: 15px;
+  }
+  
+  .course-info h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .course-rating {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .course-info p {
+    font-size: 14px;
+    color: #666;
+  }
+  .CaseText h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .CaseText p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+  .CaseText1{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    
+  }
+
+  /* Media Queries for responsiveness */
+  @media (max-width: 1024px) {
+    .course-item {
+      width: calc(100% / 2 - 20px); /* Two items per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .course-item {
+      width: 100%; /* One item per row on mobile devices */
+    }
+  }
+  
