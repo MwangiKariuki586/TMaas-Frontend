@@ -1,6 +1,6 @@
-import React from 'react';
-import './Navbar.css'; // Importing the CSS for styling
-
+import React from "react";
+import "./Navbar.css"; // Importing the CSS for styling
+import { Link } from "react-router";
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -12,15 +12,29 @@ const Navbar = () => {
 
         {/* Search Bar */}
         <div className="navbar-search">
-          <input type="text" placeholder="What services would you like today?" />
-          <img src="/images/send-icon.png" alt="Send Icon" className="send-icon" />
+          <input
+            type="text"
+            placeholder="What services would you like today?"
+          />
+          <img
+            src="/images/send-icon.png"
+            alt="Send Icon"
+            className="send-icon"
+          />
         </div>
 
         {/* Nav Links */}
         <ul className="navbar-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/explore">Services</a></li>
-          <li><a href="/leaderboard">Resources</a></li>
+          <li>
+            {" "}
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link to={"/services"}>Services</Link>
+          </li>
+          <li>
+            <a href="/leaderboard">Resources</a>
+          </li>
         </ul>
 
         {/* Right Section */}
